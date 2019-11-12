@@ -4,7 +4,42 @@
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: center;
-  height: 70vh;
+  height: 100vh;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  /* position: fixed; */
+  /* background-color: transparent; */
+  /* margin-left: 35%; */
+
+}
+
+li {
+  float: left;
+}
+ul li a{
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+li a:hover {
+  background-color:orange;
+  
 
 }
 
@@ -30,26 +65,26 @@ p{
   color: white;
   font-size:101px;
 }
-#aboutus{
-  background-attachment: fixed;
+#about{
+  /* background-attachment: fixed; */
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
 }
-#aboutus h2{
+#about h2{
   text-align: center;
   color:black;
 
 }
-#aboutus img{
+#about img{
   /* border-radius: 100%; */
   margin-left: 20%;
 }
-#aboutus h3{
+#about h3{
   text-align: center;
   color:black;
 }
-#aboutus p{
+#about p{
   text-align: center;
   color: black;
   font-size: 20px;
