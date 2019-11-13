@@ -142,7 +142,7 @@ p{
 }
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color:white;
   color: black;
 }
 
@@ -151,3 +151,4 @@ p{
   color: white;
   transform: rotateY(180deg);
 }
+
