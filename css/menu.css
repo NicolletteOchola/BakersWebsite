@@ -91,4 +91,15 @@ li a:hover {
  }
 
  .cupcakes {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  padding: 25px;
+ }
+
+ .cupcakes .description {
+   padding-top: 80px;
+ }
+
+ .cupcakes img {
+   border-radius: 40%;
  }
