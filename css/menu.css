@@ -46,6 +46,9 @@ li a:hover {
   padding: 20px;
 }
 
+.cakes {
+  text-align: center ;
+}
 .cakes h5 {
   font-family: 'Pacifico', cursive; 
   text-align: center;
