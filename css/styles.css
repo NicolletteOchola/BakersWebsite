@@ -1,0 +1,94 @@
+<<<<<<< HEAD
+=======
+#home{
+  background-image: url(/images/backery.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  height: 100vh;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  /* position: fixed; */
+  /* background-color: transparent; */
+  /* margin-left: 35%; */
+
+}
+
+li {
+  float: left;
+}
+ul li a{
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+li a:hover {
+  background-color:orange;
+  
+
+}
+
+#home h1 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
+  color: orange;
+  margin-left: -70px;
+  padding-top: 300px;
+  text-align: center;
+}
+
+#home h4 {
+  font-family: 'Big Shoulders Text', cursive;
+  font-family: 'Pacifico', cursive;
+  color:khaki;
+  text-align: center;
+  font-size: 70px;
+
+}
+p{
+  color: white;
+  font-size:101px;
+}
+#about{
+  /* background-attachment: fixed; */
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about h2{
+  text-align: center;
+  color:black;
+
+}
+#about img{
+  /* border-radius: 100%; */
+  margin-left: 20%;
+}
+#about h3{
+  text-align: center;
+  color:black;
+}
+#about p{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+>>>>>>> 11a99d263a35a2eac082c3ec7e2371f11413bbcd
