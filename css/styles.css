@@ -42,6 +42,27 @@ li a:hover {
   
 
 }
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 45%;
+}
+
+.button:hover {background-color:orange}
+
+.button:active {
+  background-color:orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 #home h1 {
   font-family: 'Big Shoulders Text', cursive;
