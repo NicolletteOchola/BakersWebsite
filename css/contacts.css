@@ -32,8 +32,8 @@ ul {
   }
   #gmap_canvas{
     border: none;
-    width: 60%;
-    height: 250px;
+    width: 100%;
+    height: 450px;
 /* margin-right: 20%; */
 }
 #gmap_canvas {
@@ -74,7 +74,7 @@ ul {
 .input-group input[type="text"], .input-group input[type="email"] {
     font-size: 15px;
     letter-spacing: 1px;
-	text-transform: capitalize;
+	text-transform: lowercase;
     padding: 10px;
     margin: 10px 0;
     width: 49%;
