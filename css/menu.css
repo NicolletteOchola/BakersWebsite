@@ -101,5 +101,11 @@ li a:hover {
  }
 
  .cupcakes img {
-   border-radius: 40%;
+   border-radius: 45%;
+ }
+
+ .footer {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  color: red;
  }
