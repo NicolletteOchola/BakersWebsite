@@ -1,8 +1,8 @@
  #home{
-  background-image: url(/images/backery.jpg);
+  background-image: url("https://bit.ly/2XbPZmr");
   background-size: cover;
   background-repeat: no-repeat;
-   background-attachment: fixed; 
+   /* background-attachment: fixed;  */
   background-position: center;
   height: 100vh;
 
@@ -45,6 +45,7 @@ li a {
 
 li a:hover {
   color:orange;
+  
 }
 .button {
   padding: 15px 25px;
@@ -99,6 +100,8 @@ p{
 #about h2{
   text-align: center;
   color:black;
+  font-family: 'Pacifico', cursive; 
+
 
 }
 #about img{
@@ -108,6 +111,9 @@ p{
 #about h3{
   text-align: center;
   color:black;
+  font-family: 'Pacifico', cursive; 
+
+   
 }
 #about p{
   text-align: center;
@@ -151,6 +157,8 @@ p{
   background-color:orange;
   color: white;
   transform: rotateY(180deg);
+  font-family: 'Pacifico', cursive; 
+  
 }
 
 img:hover {
