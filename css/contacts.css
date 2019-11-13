@@ -40,3 +40,34 @@ ul {
     position: relative;;
     margin-bottom: 16em;
 }
+.contact h3 {
+    color: #eee;
+}
+.contact p {
+    margin: 0;
+    font-size: 15px;
+    color: #999;
+    letter-spacing: 1px;
+}
+.formcontact {
+    display: flex;
+    width: 70%;
+    position: absolute;
+    bottom: 1%;
+    left: 15%;
+	-webkit-box-shadow: -5px 6px 25px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: -5px 6px 25px -12px rgba(0,0,0,0.75);
+	box-shadow: -5px 6px 25px -12px rgba(0,0,0,0.75);
+}
+.form {
+    flex-basis: 70%;
+    -webkit-flex-basis: 70%;
+    padding: 3em 5em;
+    background: #fff;
+}
+.contact {
+    flex-basis: 30%;
+    -webkit-flex-basis: 30%;
+    padding: 3em 2em;
+    background: #333;
+}
