@@ -30,3 +30,13 @@ ul {
   li a:hover {
     background-color:orange;
   }
+  #gmap_canvas{
+    border: none;
+    width: 60%;
+    height: 250px;
+/* margin-right: 20%; */
+}
+#gmap_canvas {
+    position: relative;;
+    margin-bottom: 16em;
+}
