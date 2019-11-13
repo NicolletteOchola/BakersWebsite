@@ -121,3 +121,20 @@ textarea {
 	border: 1px solid #999;
 	background: transparent;
 }
+/*--social_media_icons_style--*/
+.socialmedia ul li {
+	margin: 0 5px;
+    list-style: none;
+    display: inline-block;
+}
+.socialmedia ul li  {
+    display: block;
+    color: white;
+	font-size:12px;
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    line-height: 35px;
+    background: transparent;
+    box-shadow: 1px 1px 4px #fbfcff;
+}
