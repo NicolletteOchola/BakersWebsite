@@ -8,7 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(51, 51, 51, 0.534);
   /* position: fixed; */
   /* background-color: transparent; */
   /* margin-left: 35%; */
@@ -20,6 +20,8 @@ li {
 }
 ul li a{
   list-style-type: none;
+  text-align: center;
+
 }
 
 li a {
@@ -31,10 +33,27 @@ li a {
   list-style-type: none;
   font-weight: bolder;
   font-size: 30px;
+  font-family: 'Pacifico', cursive; 
+
 }
 
 li a:hover {
   background-color:orange;
-  
+}
+.heading {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  padding: 20px;
+}
 
+.cakes h5 {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+.cakes img {
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
