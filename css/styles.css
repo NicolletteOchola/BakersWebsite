@@ -20,7 +20,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
 }
 ul li a{
   list-style-type: none;
