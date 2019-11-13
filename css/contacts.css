@@ -138,3 +138,25 @@ textarea {
     background: transparent;
     box-shadow: 1px 1px 4px #fbfcff;
 }
+.contact address p span.fas {
+    width: 25px;
+    color: #fff;
+    margin-left: 0px;
+    display: inline-block;
+}
+.contact address p span {
+    display: block;
+    margin-left: 30px;
+}
+.contact address p, .contact address p a{
+    color: #bbb;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.contact address p a:hover{
+    color: #fff;
+}
+.contact address {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
