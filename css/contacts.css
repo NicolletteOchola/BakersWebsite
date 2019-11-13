@@ -71,3 +71,16 @@ ul {
     padding: 3em 2em;
     background: #333;
 }
+.input-group input[type="text"], .input-group input[type="email"] {
+    font-size: 15px;
+    letter-spacing: 1px;
+	text-transform: capitalize;
+    padding: 10px;
+    margin: 10px 0;
+    width: 49%;
+	color: #666;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #999;
+    background: transparent;
+}
