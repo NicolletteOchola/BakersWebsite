@@ -107,3 +107,17 @@ ul {
     background: #2196F3;
 	transition: all 0.5s ease-in;
 }
+textarea {
+    font-size: 15px;
+    resize: none;
+	text-transform: capitalize;
+    padding: 10px;
+    letter-spacing: 1px;
+    width: 100%;
+	margin: 10px 0;
+    box-sizing: border-box;
+    outline: none;	
+    color: #666;
+	border: 1px solid #999;
+	background: transparent;
+}
