@@ -2,6 +2,7 @@ body {
   background-image: url(/images/back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: black;
 }
 ul {
   list-style-type: none;
@@ -9,10 +10,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: rgba(51, 51, 51, 0.534);
-  /* position: fixed; */
-  /* background-color: transparent; */
-  /* margin-left: 35%; */
-
 }
 
 li {
@@ -28,17 +25,17 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1px 19px;
   text-decoration: none;
   list-style-type: none;
   font-weight: bolder;
   font-size: 30px;
   font-family: 'Pacifico', cursive; 
-
 }
 
 li a:hover {
-  background-color:orange;
+  color:rgb(255, 166, 0);
+  text-emphasis: none;
 }
 .heading {
   font-family: 'Pacifico', cursive; 
@@ -70,13 +67,10 @@ li a:hover {
 
 .cakes:hover .content {
   opacity: 1;
-  /* transform: scaleY(1);
-  border-radius: 35%;
-  */
 }
 
 .content {
-  background-color: rgba(8, 8, 8, 0.281);
+  background-color: rgba(8, 8, 8, 0.692);
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -86,21 +80,15 @@ li a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  -ms-transform: translate(-30%, -50%);
   text-align: center;
   font-family: 'Pacifico', cursive; 
-
 }
-/* .content {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  background: rgba(0, 0, 0, 0.521);
-  transform: scaleY(0);
-  transition: transform .5s;
-  color: #ffffff;
-} */
+ .twoFlavours {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  padding: 20px;
 
+
+ }
 

@@ -13,6 +13,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: rgba(51, 51, 51, 0.534);
+
   /* position: fixed; */
   /* background-color: transparent; */
   /* margin-left: 35%; */
@@ -42,7 +43,7 @@ li a {
 }
 
 li a:hover {
-  background-color:orange;
+  color:orange;
 }
 .button {
   padding: 15px 25px;
