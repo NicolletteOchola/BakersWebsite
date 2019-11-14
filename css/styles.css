@@ -1,8 +1,8 @@
  #home{
-  background-image: url(/images/backery.jpg);
+  background-image: url("https://bit.ly/2XbPZmr");
   background-size: cover;
   background-repeat: no-repeat;
-   background-attachment: fixed; 
+   /* background-attachment: fixed;  */
   background-position: center;
   height: 100vh;
 
@@ -13,6 +13,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: rgba(51, 51, 51, 0.534);
+  
 
   /* position: fixed; */
   /* background-color: transparent; */
@@ -44,6 +45,7 @@ li a {
 
 li a:hover {
   color:orange;
+  
 }
 .button {
   padding: 15px 25px;
@@ -98,6 +100,8 @@ p{
 #about h2{
   text-align: center;
   color:black;
+  font-family: 'Pacifico', cursive; 
+
 
 }
 #about img{
@@ -107,6 +111,9 @@ p{
 #about h3{
   text-align: center;
   color:black;
+  font-family: 'Pacifico', cursive; 
+
+   
 }
 #about p{
   text-align: center;
@@ -150,5 +157,25 @@ p{
   background-color:orange;
   color: white;
   transform: rotateY(180deg);
+  font-family: 'Pacifico', cursive; 
+  
 }
 
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
