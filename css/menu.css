@@ -1,15 +1,20 @@
 body {
-  background-image: url(/images/back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: #291c0f;
+}
+
+body h4 {
+  font-family: 'Pacifico', cursive; 
+  color: aliceblue;
+
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(51, 51, 51, 0.534);
+  background-color: rgba(51, 51, 51, 0);
 }
 
 li {
@@ -41,17 +46,20 @@ li a:hover {
   font-family: 'Pacifico', cursive; 
   text-align: center;
   padding: 20px;
+  color: aliceblue;
 
 }
 
 .cakes {
   text-align: center ;
+  color: aliceblue;
 }
 .cakes h5 {
   font-family: 'Pacifico', cursive; 
   text-align: center;
   padding-bottom: 30px;
   font-size: xx-large;
+  color: aliceblue;
 
 }
 .cakes img {
@@ -88,12 +96,16 @@ li a:hover {
   font-family: 'Pacifico', cursive; 
   text-align: center;
   padding: 20px;
+  color: aliceblue;
+
  }
 
  .cupcakes {
   font-family: 'Pacifico', cursive; 
   text-align: center;
   padding: 25px;
+  color: aliceblue;
+
  }
 
  .cupcakes .description {
@@ -107,5 +119,12 @@ li a:hover {
  .footer {
   font-family: 'Pacifico', cursive; 
   text-align: center;
-  color: red;
+  color: white
  }
+
+.form .button {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  color: white
+
+} 

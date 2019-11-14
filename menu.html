@@ -122,10 +122,10 @@
         </div>
       </div>
     </div>
-    <form action="">
+    <form action="" class="form container">
       <h1 class="heading">Order Here</h4>
-        <h2 class="heading">Cakes</h2>
-        <label for="select">
+      <h2 class="heading">Cakes</h2>
+        <label for="select" class="col-lg-4">
           <h4>Flavour</h4>
         </label>
         <select class="browser-default custom-select custom-select-md mb-3 name">
@@ -159,8 +159,46 @@
           <option value="Kevin">Kevin Brian</option>
           <option value="Mary">Mary Johns</option>
         </select>
-          <button type="button" class="btn btn-light">place order</button>
+          <button type="button" class="btn btn-dark button">Place Order</button>
     </form>
+    <form action="" class="form container">
+        <h2 class="heading">Cupcakes</h2>
+          <label for="select" class="col-lg-4">
+            <h4>Flavour</h4>
+          </label>
+          <select class="browser-default custom-select custom-select-md mb-3 name">
+            <option selected value="0">Select flavour here</option>
+            <option value="Banana">Banana and Almond</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Carrot">Carrot</option>
+            <option value="SaltedCaramel">Salted Caramel</option>
+            <option value="ChocolateFudge">Chocolate Fudge</option>
+            <option value="RedVelvet">Red Velvet</option>
+          </select>
+  
+          <label for="select">
+            <h4>Amount</h4>
+          </label>
+          <select class="browser-default custom-select custom-select-md mb-3" id="size">
+            <option selected value="0">Select amount here</option>
+            <option value="12">12</option>
+            <option value="24">24</option>
+            <option value="36">36</option>
+          </select>
+  
+          <label for="select">
+            <h4>Bakers</h4>
+          </label>
+          <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+            <option selected value="0">Select your preferred baker</option>
+            <option value="Viona">Viona Wells</option>
+            <option value="Nixon">Nixon Kanye</option>
+            <option value="Kevin">Kevin Brian</option>
+            <option value="Mary">Mary Johns</option>
+          </select>
+            <button type="button" class="btn btn-dark button">Place Order</button>
+      </form>
+  
     <div>
       <footer class="container footer">
         <h4>You can ALWAYS have cake!</h4>
