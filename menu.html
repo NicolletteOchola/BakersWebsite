@@ -115,29 +115,58 @@
           <img src="images/cupcakes2.jpg" alt="" height="300">
         </div>
         <div class="col-lg-6 description">
-            <h1>Want cupcakes instead?</h1>
-            <h4>
-              No problem! All the cakes apart fom blackforest are available as cupcakes at Ksh 700 for a dozen
-            </h4>
-          </div>
+          <h1>Want cupcakes instead?</h1>
+          <h4>
+            No problem! All the cakes apart fom blackforest are available as cupcakes at Ksh 700 for a dozen
+          </h4>
+        </div>
       </div>
     </div>
-    <div class="delivery">
-        <form action="">
-          <div class="form-group">
-            <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-            <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
-            <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-            <button class="btn btn-outline-success" id="final-order">Place Order</button>
-          </div>
-        </form>
-      </div>
+    <form action="">
+      <h1 class="heading">Order Here</h4>
+        <h2 class="heading">Cakes</h2>
+        <label for="select">
+          <h4>Flavour</h4>
+        </label>
+        <select class="browser-default custom-select custom-select-md mb-3 name">
+          <option selected value="0">Select flavour here</option>
+          <option value="Blackforest">Blackforest</option>
+          <option value="Banana">Banana and Almond</option>
+          <option value="Chocolate">Chocolate</option>
+          <option value="Carrot">Carrot</option>
+          <option value="SaltedCaramel">Salted Caramel</option>
+          <option value="ChocolateFudge">Chocolate Fudge</option>
+          <option value="RedVelvet">Red Velvet</option>
+        </select>
+
+        <label for="select">
+          <h4>Size</h4>
+        </label>
+        <select class="browser-default custom-select custom-select-md mb-3" id="size">
+          <option selected value="0">Select size here</option>
+          <option value="1kg">1 Kg</option>
+          <option value="2kg">2 kg</option>
+          <option value="3kg">3 kg</option>
+        </select>
+
+        <label for="select">
+          <h4>Bakers</h4>
+        </label>
+        <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+          <option selected value="0">Select your preferred baker</option>
+          <option value="Viona">Viona Wells</option>
+          <option value="Nixon">Nixon Kanye</option>
+          <option value="Kevin">Kevin Brian</option>
+          <option value="Mary">Mary Johns</option>
+        </select>
+          <button type="button" class="btn btn-light">place order</button>
+    </form>
     <div>
       <footer class="container footer">
-       <h4>You can ALWAYS have cake!</h4> 
+        <h4>You can ALWAYS have cake!</h4>
       </footer>
     </div>
-    
+
   </div>
 </body>
 
