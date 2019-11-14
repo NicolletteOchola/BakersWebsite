@@ -1,0 +1,111 @@
+body {
+  background-image: url(/images/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.534);
+}
+
+li {
+  float: right;
+}
+ul li a{
+  list-style-type: none;
+  text-align: center;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1px 19px;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive; 
+}
+
+li a:hover {
+  color:rgb(255, 166, 0);
+  text-emphasis: none;
+}
+.heading {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  padding: 20px;
+
+}
+
+.cakes {
+  text-align: center ;
+}
+.cakes h5 {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: xx-large;
+
+}
+.cakes img {
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 35%;
+}
+
+.cakes:hover img {
+  opacity: 0.7;
+}
+
+.cakes:hover .content {
+  opacity: 1;
+}
+
+.content {
+  background-color: rgba(8, 8, 8, 0.692);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-30%, -50%);
+  text-align: center;
+  font-family: 'Pacifico', cursive; 
+}
+ .twoFlavours {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  padding: 20px;
+ }
+
+ .cupcakes {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  padding: 25px;
+ }
+
+ .cupcakes .description {
+   padding-top: 80px;
+ }
+
+ .cupcakes img {
+   border-radius: 45%;
+ }
+
+ .footer {
+  font-family: 'Pacifico', cursive; 
+  text-align: center;
+  color: red;
+ }

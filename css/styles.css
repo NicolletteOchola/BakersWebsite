@@ -1,25 +1,181 @@
-body {
-  background-image: url(/images/backery.jpg);
+ #home{
+  background-image: url("https://bit.ly/2XbPZmr");
   background-size: cover;
   background-repeat: no-repeat;
+   /* background-attachment: fixed;  */
+  background-position: center;
+  height: 100vh;
+
+} 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.534);
+  
+
+  /* position: fixed; */
+  /* background-color: transparent; */
+  /* margin-left: 35%; */
+
 }
 
-.container h1 {
+li {
+  float: right;
+}
+ul li a{
+  list-style-type: none;
+  text-align: center;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive; 
+
+}
+
+li a:hover {
+  color:orange;
+  
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 45%;
+}
+
+.button:hover {background-color:orange}
+
+.button:active {
+  background-color:orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#home h1 {
   font-family: 'Big Shoulders Text', cursive;
   font-family: 'Pacifico', cursive;
   font-size: 100px;
-  color: #ffffff;
+  color: orange;
   margin-left: -70px;
   padding-top: 300px;
+  text-align: center;
 }
 
-.container h4 {
+#home h4 {
   font-family: 'Big Shoulders Text', cursive;
   font-family: 'Pacifico', cursive;
-  color: #ffffff;
+  color:khaki;
+  text-align: center;
+  font-size: 70px;
 
 }
 p{
   color: white;
-  font-size:100px;
+  font-size:101px;
+}
+#about{
+  /* background-attachment: fixed; */
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about h2{
+  text-align: center;
+  color:black;
+  font-family: 'Pacifico', cursive; 
+
+
+}
+#about img{
+  /* border-radius: 100%; */
+  margin-left: 20%;
+}
+#about h3{
+  text-align: center;
+  color:black;
+  font-family: 'Pacifico', cursive; 
+
+   
+}
+#about p{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color:white;
+  color: black;
+}
+
+.flip-card-back {
+  background-color:orange;
+  color: white;
+  transform: rotateY(180deg);
+  font-family: 'Pacifico', cursive; 
+  
+}
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
