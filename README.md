@@ -2,7 +2,7 @@
 ## BakersWebsite
 
 ## Images
- <img src="images/BakersWebsite.png" height="250px" width="250px">
+ <img src="images/BakersWebsite.png" height="px" width="750x">
 
 ## Description
 - A website that helps customers purchase cakes of their choice and it gets delivered country wide to their door step
