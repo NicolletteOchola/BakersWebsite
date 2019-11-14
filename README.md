@@ -1,7 +1,7 @@
 # Project name
 ## BakersWebsite
 
-## Images
+## Screen--shot
  <img src="images/BakersWebsite.png" height="px" width="750x">
 
 ## Description
