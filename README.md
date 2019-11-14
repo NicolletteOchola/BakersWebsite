@@ -26,7 +26,7 @@
 - Topping it up  the customer is able to navigate through google maps  to get to our location if they need to pick from the store directly.
 - The website also offers ratings to our delivery bike men and the quality of purchase.
 
-## Technologies used
+## Technologies Used
 - HTML
 - CSS
 - Bootstrap
