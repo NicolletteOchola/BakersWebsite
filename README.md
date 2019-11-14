@@ -34,5 +34,5 @@
 - jQuery
 
 ## License
-[MIT] Copyright(BakersWebsite)
+[MIT] Copyright(BakersWebsite)<br>
 MT:  https://rem.mit-license.org
