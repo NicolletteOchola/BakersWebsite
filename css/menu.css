@@ -112,6 +112,15 @@ li a:hover {
    padding-top: 80px;
  }
 
+ .orderForm {
+   background-color: rgba(0, 0, 0, 0.26);
+   padding: 40px;
+ }
+ .orderForm .button {
+   text-align: center;
+   position: 50% 50%;
+ }
+
  .cupcakes img {
    border-radius: 45%;
  }
