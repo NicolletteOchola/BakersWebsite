@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/menu.css">
   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  <script src="js/scripts.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
   <title>Menu</title>
 </head>
 
@@ -18,7 +20,7 @@
   </ul>
   <div class="container-fluid">
     <div class="heading">
-      <h1>Our Selected Cakes</h1>
+      <h1>~Our Selected Cakes~</h1>
     </div>
     <div class="row">
       <div class="col-lg-4">
@@ -123,87 +125,89 @@
       </div>
     </div>
     <form action="" class="form container">
-      <h1 class="heading">Order Here</h4>
-      <h2 class="heading">Cakes</h2>
-        <label for="select" class="col-lg-4">
-          <h4>Flavour</h4>
-        </label>
-        <select class="browser-default custom-select custom-select-md mb-3 name">
-          <option selected value="0">Select flavour here</option>
-          <option value="Blackforest">Blackforest</option>
-          <option value="Banana">Banana and Almond</option>
-          <option value="Chocolate">Chocolate</option>
-          <option value="Carrot">Carrot</option>
-          <option value="SaltedCaramel">Salted Caramel</option>
-          <option value="ChocolateFudge">Chocolate Fudge</option>
-          <option value="RedVelvet">Red Velvet</option>
-        </select>
-
-        <label for="select">
-          <h4>Size</h4>
-        </label>
-        <select class="browser-default custom-select custom-select-md mb-3" id="size">
-          <option selected value="0">Select size here</option>
-          <option value="1kg">1 Kg</option>
-          <option value="2kg">2 kg</option>
-          <option value="3kg">3 kg</option>
-        </select>
-
-        <label for="select">
-          <h4>Bakers</h4>
-        </label>
-        <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-          <option selected value="0">Select your preferred baker</option>
-          <option value="Viona">Viona Wells</option>
-          <option value="Nixon">Nixon Kanye</option>
-          <option value="Kevin">Kevin Brian</option>
-          <option value="Mary">Mary Johns</option>
-        </select>
-          <button type="button" class="btn btn-dark button">Place Order</button>
-    </form>
-    <form action="" class="form container">
-        <h2 class="heading">Cupcakes</h2>
-          <label for="select" class="col-lg-4">
+      <h1 class="heading">~Order Here~</h4>
+      <div class="row orderForm">
+        <div class="col-lg-6">
+          <label for="select">
+            <h2 class="heading">~Cakes 🎂~</h2>
             <h4>Flavour</h4>
           </label>
-          <select class="browser-default custom-select custom-select-md mb-3 name">
-            <option selected value="0">Select flavour here</option>
-            <option value="Banana">Banana and Almond</option>
-            <option value="Chocolate">Chocolate</option>
-            <option value="Carrot">Carrot</option>
-            <option value="SaltedCaramel">Salted Caramel</option>
-            <option value="ChocolateFudge">Chocolate Fudge</option>
-            <option value="RedVelvet">Red Velvet</option>
-          </select>
-  
-          <label for="select">
-            <h4>Amount</h4>
-          </label>
-          <select class="browser-default custom-select custom-select-md mb-3" id="size">
-            <option selected value="0">Select amount here</option>
-            <option value="12">12</option>
-            <option value="24">24</option>
-            <option value="36">36</option>
-          </select>
-  
-          <label for="select">
-            <h4>Bakers</h4>
-          </label>
-          <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-            <option selected value="0">Select your preferred baker</option>
-            <option value="Viona">Viona Wells</option>
-            <option value="Nixon">Nixon Kanye</option>
-            <option value="Kevin">Kevin Brian</option>
-            <option value="Mary">Mary Johns</option>
-          </select>
+            <select class="browser-default custom-select custom-select-md mb-3 flavour">
+              <option selected value="0">Select flavour here</option>
+              <option value="Blackforest">Blackforest</option>
+              <option value="Banana">Banana and Almond</option>
+              <option value="Chocolate">Chocolate</option>
+              <option value="Carrot">Carrot</option>
+              <option value="SaltedCaramel">Salted Caramel</option>
+              <option value="ChocolateFudge">Chocolate Fudge</option>
+              <option value="RedVelvet">Red Velvet</option>
+            </select>
+
+            <label for="select">
+              <h4>Size</h4>
+            </label>
+            <select class="browser-default custom-select custom-select-md mb-3" id="size">
+              <option selected value="0">Select size here</option>
+              <option value="1kg">1 Kg</option>
+              <option value="2kg">2 kg</option>
+              <option value="3kg">3 kg</option>
+            </select>
+
+            <label for="select">
+              <h4>Bakers</h4>
+            </label>
+            <select class="browser-default custom-select custom-select-md mb-3" id="bakers">
+              <option selected value="0">Select your preferred baker</option>
+              <option value="Viona">Viona Wells</option>
+              <option value="Nixon">Nixon Kanye</option>
+              <option value="Kevin">Kevin Brian</option>
+              <option value="Mary">Mary Johns</option>
+            </select>
             <button type="button" class="btn btn-dark button">Place Order</button>
       </form>
-  
-    <div>
-      <footer class="container footer">
-        <h4>You can ALWAYS have cake!</h4>
-      </footer>
     </div>
+    <div class="col-lg-6">
+        <form action="" class="form container">
+            <h2 class="heading">~Cupcakes 🧁~</h2>
+            <label for="select">
+              <h4>Flavour</h4>
+            </label>
+            <select class="browser-default custom-select custom-select-md mb-3 flavour">
+              <option selected value="0">Select flavour here</option>
+              <option value="Banana">Banana and Almond</option>
+              <option value="Chocolate">Chocolate</option>
+              <option value="Carrot">Carrot</option>
+              <option value="SaltedCaramel">Salted Caramel</option>
+              <option value="ChocolateFudge">Chocolate Fudge</option>
+              <option value="RedVelvet">Red Velvet</option>
+            </select>
+        
+            <label for="select">
+              <h4>Quantity</h4>
+            </label>
+            <select class="browser-default custom-select custom-select-md mb-3" id="size">
+              <option selected value="0">Select quantity here</option>
+              <option value="12">12</option>
+              <option value="24">24</option>
+              <option value="36">36</option>
+            </select>
+        
+            <label for="select">
+              <h4>Bakers</h4>
+            </label>
+            <select class="browser-default custom-select custom-select-md mb-3" id="baker">
+              <option selected value="0">Select your preferred baker</option>
+              <option value="Viona">Viona Wells</option>
+              <option value="Nixon">Nixon Kanye</option>
+              <option value="Kevin">Kevin Brian</option>
+              <option value="Mary">Mary Johns</option>
+            </select>
+            <button type="button" class="btn btn-dark button">Place Order</button>
+          </form>
+        
+    </div>
+  
+  <div>
 
   </div>
 </body>
