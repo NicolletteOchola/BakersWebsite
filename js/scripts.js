@@ -17,17 +17,41 @@ $(document).ready(function ()) {
       price = 0;
       break;
     case "1kg":
-      price = 2400;
+      price = 2000;
     case "2kg":
-      price = 3200;
+      price = 3000;
     case "3kg":
-      price = 5000;
+      price = 4000;
   }
 
   switch (flavour) {
     case "0":
       price = 0;
-    case ""
+    case "Blackforest":
+      price = 400;
+    case "Banana":
+      price = 200;
+    case "Chocolate":
+      price = 800;
+    case "Carrot":
+      price = 200;
+    case "SaltedCaramel":
+      price = 400;
+    case "ChocolateFudge":
+      price = 1000;
+    case "RedVelevet":
+      price = 1000;
   }
+
+if ((csize == 0) && (flavour == 0)) {
+  alert("Please select a Cake flavour and Size.")
+}
+else {
+  return 0;
+}
+
+total = 
+}
+}
 }
 
