@@ -167,3 +167,16 @@ textarea {
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
+@media(max-width: 900px){
+	.contact address p, .contact address p a {
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+	.contact p {
+		letter-spacing: .5px;
+    }}
+ @media(max-width: 1280px){
+        .formcontact{
+            width: 85%;
+            left: 7.5%;
+        }}
