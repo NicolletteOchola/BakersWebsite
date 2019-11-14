@@ -54,11 +54,11 @@ li a:hover {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color:black;
+  background-color:red;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-  margin-left: 45%;
+  margin-left: 50%;
 }
 
 .button:hover {background-color:orange}
