@@ -36,3 +36,4 @@
 ## License
 [MIT] Copyright(BakersWebsite)<br>
 MT:  https://rem.mit-license.org
+Copyright © 2019 Remy Sharp, https://remysharp.com
