@@ -1,10 +1,11 @@
  #home{
-  background-image: url("https://bit.ly/2XbPZmr");
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
    /* background-attachment: fixed;  */
   background-position: center;
   height: 100vh;
+  
 
 } 
 ul {
@@ -58,7 +59,8 @@ li a:hover {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-  margin-left: 50%;
+  margin-left: 45%;
+  margin-top: 10%;
 }
 
 .button:hover {background-color:orange}
@@ -68,12 +70,14 @@ li a:hover {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
+h4{
+  font-family: 'Satisfy', cursive;
+}
 #home h1 {
-  font-family: 'Big Shoulders Text', cursive;
-  font-family: 'Pacifico', cursive;
+  font-family:fantasy;
+  font-family: fantasy;
   font-size: 100px;
-  color: orange;
+  color:orange;
   margin-left: -70px;
   padding-top: 300px;
   text-align: center;
@@ -82,7 +86,7 @@ li a:hover {
 #home h4 {
   font-family: 'Big Shoulders Text', cursive;
   font-family: 'Pacifico', cursive;
-  color:khaki;
+  color:white;
   text-align: center;
   font-size: 80px;
 
