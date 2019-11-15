@@ -39,6 +39,14 @@
 
 ## Known bugs
 There are no known bugs in the website so far. If you come across any, you are free to contact me via the contacts below.
+## Contacts information
+ccayreen24@gmail.com
+
+nicoleochola@gmail.com
+
+mwalimuiant@gmail.com
+
+ongatikebaso@gmail.com
 
 ## License
 [MIT] Copyright(BakersWebsite)<br>
