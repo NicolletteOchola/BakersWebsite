@@ -1,5 +1,5 @@
-# Project name
-## BakersWebsite
+# # Project name
+-  BakersWebsite
 
 ## Screen--shot
  <img src="images/BakersWebsite.png" height="px" width="750x">
@@ -15,26 +15,38 @@
 - Nicollette Ochola
 - Catherine Nduku
 
-## Setup instructions
-- You can fork the application from github
-- Open your terminal in your PC and type in the search button and search for terminal
-- Double click terminal to open it. Type pwd to see the point you are in your Pc.
-- Feed in the command sudo apt-get update. Then key in sudo apt BakersWebsite.
-- Clone or download the project from git hub 
+## Setup instructions 
+ - git clone or download the zip file.
+
+ - Extract the zip file.
+
+ - cd project folder.
+
+ - launch the index.html file.
+
 
 ## BDD
-- If the user keys nothing on the form it should display invalid format advising them to input the correct details.
-- The user navigates through the website and finds a menu with a variety range of cakes to choose from. He/She chooses the quantity          which has it's own unique price and toppings at an affordable price.
-- The website allows the user to fill in a form enquiring about the Delivvery location. 
-- Topping it up  the customer is able to navigate through google maps  to get to our location if they need to pick from the store directly.
-- The website also offers ratings to our delivery bike men and the quality of purchase.
+<img src ="images/menu.png">
 
+ -  we have an order form where customers are able to choose the flavour of cake they want .They can also choose the size of the cake as well as the baker they want to bake their cake .
+
+  - If the customers are interested in cupcakes they can  as well coose the quantity of cupcakes and flavour and select the baker they want to bake for them .
 ## Technologies Used
-- HTML
-- CSS
-- Bootstrap
-- javascript
-- jQuery
+
+- [HTML & CSS](https://www.w3schools.com/html/html_css.asp) - HTML is used to make the backbone of the website which mainly includes the text whereas CSS is used in styling the HTML document.
+- [Bootstrap](https://getbootstrap.com/) - Bootsrap acts as a framework in building the site especially when it comes to object positioning and responsivity of the site.
+- [jQuery](https://jquery.com/) - This helps in hiding and showing elements and also in clearing forms after submission.
+
+## Known bugs
+There are no known bugs in the website so far. If you come across any, you are free to contact me via the contacts below.
+## Contacts information
+ccayreen24@gmail.com
+
+nicoleochola@gmail.com
+
+mwalimuiant@gmail.com
+
+ongatikebaso@gmail.com
 
 ## License
 [MIT] Copyright(BakersWebsite)<br>
