@@ -1,5 +1,5 @@
-# Project name
-## BakersWebsite
+# # Project name
+-  BakersWebsite
 
 ## Screen--shot
  <img src="images/BakersWebsite.png" height="px" width="750x">
