@@ -23,6 +23,7 @@
 - Clone or download the project from git hub 
 
 ## BDD
+<img src ="images/menu.png">
 - If the user keys nothing on the form it should display invalid format advising them to input the correct details.
 - The user navigates through the website and finds a menu with a variety range of cakes to choose from. He/She chooses the quantity          which has it's own unique price and toppings at an affordable price.
 - The website allows the user to fill in a form enquiring about the Delivvery location. 
