@@ -1,4 +1,4 @@
-var price, 1kgprice, 2kgprice;
+var price, cakeSize, cakeFlavour;
 let total = 0;
 function GetOrder(flavour, size, baker, total) {
   this.flavour = flavour;
@@ -50,8 +50,10 @@ else {
   return 0;
 }
 
-total = 
-}
-}
-}
+total = price + cakeSize + cakeFlavour
+console.log(total);
+let checkoutTotal = 0;
+checkoutTotal = checkoutTotal + total;
+
+$(""(".flavour option:selected").val()
 
