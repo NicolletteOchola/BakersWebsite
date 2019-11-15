@@ -1,7 +1,7 @@
 body {
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #271b048c;
+  background-color: #836853ff;
 }
 
 body h4 {
@@ -136,3 +136,7 @@ li a:hover {
   text-align: center;
   color: white
 } 
+
+.totals {
+  text-align: center;
+}
