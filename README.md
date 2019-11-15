@@ -37,6 +37,8 @@
 - [Bootstrap](https://getbootstrap.com/) - Bootsrap acts as a framework in building the site especially when it comes to object positioning and responsivity of the site.
 - [jQuery](https://jquery.com/) - This helps in hiding and showing elements and also in clearing forms after submission.
 
+## Known bugs
+There are no known bugs in the website so far. If you come across any, you are free to contact me via the contacts below.
 
 ## License
 [MIT] Copyright(BakersWebsite)<br>
