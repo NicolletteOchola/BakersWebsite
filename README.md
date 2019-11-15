@@ -24,12 +24,10 @@
 
 ## BDD
 <img src ="images/menu.png">
-- If the user keys nothing on the form it should display invalid format advising them to input the correct details.
-- The user navigates through the website and finds a menu with a variety range of cakes to choose from. He/She chooses the quantity          which has it's own unique price and toppings at an affordable price.
-- The website allows the user to fill in a form enquiring about the Delivvery location. 
-- Topping it up  the customer is able to navigate through google maps  to get to our location if they need to pick from the store directly.
-- The website also offers ratings to our delivery bike men and the quality of purchase.
 
+ -  we have an order form where customers are able to choose the flavour of cake they want .They can also choose the size of the cake as well as the baker they want to bake their cake .
+ 
+  - If the customers are interested in cupcakes they can  as well coose the quantity of cupcakes and flavour and select the baker they want to bake for them .
 ## Technologies Used
 - HTML
 - CSS
